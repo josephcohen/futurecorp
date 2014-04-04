@@ -1,0 +1,58 @@
+body {
+  height: 100%;
+  background: url('logo.png') rgb(255, 255, 255);
+  background-repeat: repeat-y;
+  background-size: cover;
+  background-position: center center;
+  font: 400 1em/1.38 Helvetica;
+  color: rgb(0,0,0);
+}
+
+.element {
+  float: left;
+  clear: both;
+  width: 0.0833333333%;
+  height: 1px;
+  margin: 350px 0 0 47.9166666666%;
+  background-color: rgb(222, 222, 222);
+}
+
+.text-1 {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  width: 43.8333333333%;
+  height: 116px;
+  min-height: 116px;
+  margin: auto;
+  background-color: rgb(255, 255, 255);
+  font-size: 3.125em;
+  font-weight: 700;
+  line-height: 2.28;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+.text-2 {
+  display: inline-block;
+  position: relative;
+  float: left;
+  z-index: 3;
+  margin: 389px 0 0 71.1666666666%;
+  font-weight: 400;
+  line-height: 1.38;
+  color: rgb(0,0,0);
+}
+
+.text-3 {
+  display: inline-block;
+  float: left;
+  clear: both;
+  margin: 113px 0 0 62.8333333333%;
+  font-weight: 400;
+  line-height: 1.38;
+  color: rgb(0,0,0);
+}
