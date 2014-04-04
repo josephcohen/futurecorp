@@ -22,6 +22,9 @@ Futurecorp::Application.configure do
   # Raise an error on page load if there are pending migrations
   config.active_record.migration_error = :page_load
 
+  #develop with some sprockets super powers!
+  config.assets.raise_production_errors = true
+
   # Debug mode disables concatenation and preprocessing of assets.
   # This option may cause significant delays in view rendering with a large
   # number of complex assets.
